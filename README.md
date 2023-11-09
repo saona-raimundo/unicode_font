@@ -1,6 +1,11 @@
 # unicode_font
 
-Convert unicode character between fonts.
+[![Download](https://img.shields.io/crates/d/unicode_font)](https://crates.io/crates/unicode_font)
+[![License](https://img.shields.io/crates/l/unicode_font)](https://github.com/saona-raimundo/unicode_font)
+[![Docs](https://docs.rs/unicode_font/badge.svg)](https://docs.rs/unicode_font)
+[![Crate](https://img.shields.io/crates/v/unicode_font.svg)](https://crates.io/crates/unicode_font)
+
+Convert unicode characters between fonts.
 
 [Unicode Standard Annex #44](https://www.unicode.org/reports/tr44/tr44-32.html#Character_Decomposition_Mappings) defines Character Decomposition Mapping. 
 In particular, characters are given a `<font>` tag to indicate some characters are a font variant of others.
