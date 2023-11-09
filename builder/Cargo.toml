@@ -1,0 +1,12 @@
+[package]
+name = "builder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+csv = "1.3.0"
+heck = "0.4.1"
+reqwest = { version = "0.11.22", features = ["blocking"] }
+strum = "0.25.0"
+unicode_font = { path = "../." }
