@@ -1,6 +1,6 @@
 [package]
 name = "unicode_font"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Raimundo Saona <rasa200@gmail.com>"]
 license = "MIT OR Apache-2.0 OR CC0-1.0"
@@ -10,7 +10,7 @@ documentation = "https://docs.rs/unicode_font"
 homepage = "https://crates.io/crates/unicode_font"
 description = "Convert unicode characters between fonts."
 keywords = ["unicode", "font"]
-categories = ["mathematics", "text processing", "text editors"]
+categories = ["value-formatting", "text-processing", "mathematics"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
