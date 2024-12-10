@@ -7,7 +7,9 @@
 
 Convert unicode characters between fonts.
 
-[Unicode Standard Annex #44](https://www.unicode.org/reports/tr44/tr44-32.html#Character_Decomposition_Mappings) defines Character Decomposition Mapping. 
+[Playground](https://saona-raimundo.github.io/unicode_font/)
+
+[Unicode Standard Annex #44](https://www.unicode.org/reports/tr44/tr44-32.html#Character_Decomposition_Mappings) defines Character Decomposition Mapping.
 In particular, characters are given a `<font>` tag to indicate some characters are a font variant of others.
 On top of these variants, we add carefully selected variants, like superscript, subscript and squared.
 This extension is included by default and can be [turned off](https://doc.rust-lang.org/cargo/reference/features.html#the-default-feature).
