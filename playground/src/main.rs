@@ -254,6 +254,11 @@ fn App() -> impl IntoView {
             <h3>"This playground"</h3>
             <p>"When a (plain) insterted character does not have a font variant, we display �."</p>
             <p>
+                "Use the input "
+                <button on:click=move |_| set_input.set("123-abc-i-ABC-ابج-אדה".to_string())>"123-abc-i-ABC-ابج-אדה"</button>
+                " to see a character converted to each font."
+            </p>
+            <p>
                 "Source code: "
                 <a href="https://github.com/saona-raimundo/unicode_font/playground">"GitHub"</a>
             </p>

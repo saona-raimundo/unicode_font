@@ -8,6 +8,8 @@ Also, we try to adhere to the [Conventional Commits specification](https://www.c
 
 ## Unreleased
 
-## [0.1.1] - 2023-12-10
 
+## [0.1.1] - 2023-12-11
+
+- Added a button for input example
 - First working version
